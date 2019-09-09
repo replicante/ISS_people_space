@@ -30,7 +30,7 @@ def people_space():
     people_url = 'http://api.open-notify.org/astros.json'
     response = requests.get(people_url).json()
 
-    print('people in the space: ', response['number'])
+    print('People in the space: ', response['number'])
     print()
     people = response['people']
 
